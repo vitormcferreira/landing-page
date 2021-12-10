@@ -1,0 +1,38 @@
+.page-menu {
+  width: 100%;
+  background-color: var(--background-color-nav);
+  position: fixed;
+  box-shadow: 0 -1px 3px black;
+  z-index: 10000;
+}
+
+.menu-nav ul {
+  height: 60px;
+  max-width: var(--site-max-width);
+  margin: 0 auto;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-opt {
+  display: flex;
+}
+
+.menu-opt li {
+  margin: 10px;
+}
+
+.menu-nav a {
+  text-decoration: none;
+  color: var(--font-color-nav);
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+}

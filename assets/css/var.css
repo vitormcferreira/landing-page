@@ -1,0 +1,20 @@
+:root {
+  --background-color-nav: white;
+  --font-color-nav: #0a1128;
+
+  --background-color-one: #0a1128;
+  --font-color-one: white;
+
+  --background-color-two: white;
+  --font-color-two: #0a1128;
+
+  --background-color-footer: #0a1128;
+  --font-color-footer: white;
+
+  --table-border-color: rgb(236, 236, 236);
+
+  --site-max-width: 1200px;
+  --xbig-font-size: 3.5em;
+  --normal-font-size: 1.5em;
+  --normal-font-space: 100px;
+}
